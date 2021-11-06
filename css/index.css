@@ -387,9 +387,23 @@ h2 {
     line-height: 1.5em;
   }
 
+  .about-container {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .about_content {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
   .about-desc {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 23px;
   }
 
   .skills_list_item {
@@ -412,13 +426,13 @@ h2 {
   }
 
   .projects_block {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     width: 80%;
   }
 
   .projects_block-heading {
     padding: 10px 30px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .projects_block-more {
@@ -428,8 +442,10 @@ h2 {
 
   .projects_block-more_content {
     padding: 10px 15px;
-    font-size: 15px;
-    line-height: 25px;
+    width: 110%;
+    left: -5%;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .contacts-heading {
