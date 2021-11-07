@@ -112,10 +112,10 @@ h2 {
 
 .hero-avatar {
   margin-left: auto;
+  margin-right: 200px;
 }
 
 .hero-photo {
-  margin-right: 200px;
   width: 400px;
   height: 400px;
   border-radius: 50%;
@@ -192,7 +192,10 @@ h2 {
   padding: 20px 50px;
   text-align: center;
   border-bottom: 2px dashed black;
-  text-decoration: underline;
+}
+
+.projects_block-heading a {
+  text-decoration: underline wavy #ad0054;
 }
 
 .projects_block-pic {
@@ -321,8 +324,11 @@ h2 {
     margin-right: 10px;
   }
 
-  .hero-photo {
+  .hero-avatar {
     margin-right: 100px;
+  }
+
+  .hero-photo {
     width: 350px;
     height: 350px;
   }
@@ -374,8 +380,11 @@ h2 {
     font-size: 20px;
   }
 
-  .hero-photo {
+  .hero-avatar {
     margin-right: 20px;
+  }
+
+  .hero-photo {
     width: 180px;
     height: 180px;
     background-image: url(../img/photo_800.jpg);
@@ -426,7 +435,7 @@ h2 {
   }
 
   .projects_block {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     width: 80%;
   }
 
@@ -469,5 +478,54 @@ h2 {
 
   .contacts-title {
     font-size: 25px;
+  }
+}
+
+/*адаптив 400*/
+
+@media (max-width: 400px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-avatar {
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .contacts_content {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .contacts-title {
+    font-size: 20px;
+  }
+
+  .projects {
+    padding: 0px 30px;
+  }
+
+  .projects_block {
+    width: 100%;
+  }
+
+  .contacts-link {
+    word-wrap: break-word;
+  }
+
+  .projects_block-more_text {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .arrow {
+    width: 15px;
+    height: 15px;
   }
 }
