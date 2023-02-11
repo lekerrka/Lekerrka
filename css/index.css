@@ -57,6 +57,7 @@ h2 {
   align-items: center;
 }
 
+/*
 .header-logo {
   margin-right: auto;
   height: 80px;
@@ -68,6 +69,7 @@ h2 {
   transform: rotate(360deg);
   transition: transform 0.7s ease;
 }
+*/
 
 .header-nav {
   margin: auto;
@@ -160,8 +162,8 @@ h2 {
 }
 
 .git-link:hover {
-  color: #ac01da;
-  text-decoration: underline solid #ac01da;
+  color: var(--hoverColor);
+  text-decoration: underline solid var(--hoverColor);
 }
 
 .skills {
@@ -208,8 +210,13 @@ h2 {
   border-bottom: 2px dashed black;
 }
 
+.projects_block-heading a:hover {
+  color: var(--hoverColor);
+  text-decoration: underline solid var(--hoverColor);
+}
+
 .projects_block-heading a {
-  text-decoration: underline solid #ad0054;
+  text-decoration: underline solid black;
 }
 
 .projects_block-pic {
