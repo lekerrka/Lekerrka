@@ -69,6 +69,10 @@ h2 {
   transition: transform 0.7s ease;
 }
 
+.header-nav {
+  margin: auto;
+}
+
 .header-nav_list {
   display: flex;
 }
@@ -144,10 +148,20 @@ h2 {
 .about-desc {
   text-indent: 20px;
   text-align: justify;
+  margin-bottom: 15px;
 }
 
 .about_content {
   width: 50%;
+}
+
+.git-link {
+  text-decoration: underline solid black;
+}
+
+.git-link:hover {
+  color: #ac01da;
+  text-decoration: underline solid #ac01da;
 }
 
 .skills {
